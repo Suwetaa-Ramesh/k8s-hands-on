@@ -77,16 +77,16 @@ kubectl apply -f efs-storage.yaml
 
 ### 5. Access the Services
 
-# Once all services are deployed, you can access them through their respective services. If you are using a cloud provider's Kubernetes service or Minikube, you can use kubectl get services to get the external IP or URL.
+Once all services are deployed, you can access them through their respective services. If you are using a cloud provider's Kubernetes service or Minikube, you can use kubectl get services to get the external IP or URL.
 
-# For example:
+For example:
 
 ```bash
 kubectl get services
 
 ```
 
-# This will display something like:
+This will display something like:
 
 ```bash
 NAME            TYPE           CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
